@@ -1,0 +1,119 @@
+:root{
+    --shadow: 
+      0 2px 23px 0 rgba(0, 0, 0, 0.1),
+      0 2px 49px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.cadastro{
+    overflow: hidden;
+    max-width: 100%;
+    box-shadow: var(--shadow);
+    margin-right: 15px;
+    display: block;
+    background-color: white;
+    height: 550px;
+    border-radius: 5px;
+}
+
+.formsAnimalLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.formsAnimalLine span {
+    flex: 1; /* Ocupa o espaço igualmente */
+    min-width: 150px; /* Tamanho mínimo para cada campo */
+}
+
+.formsAnimalLine input,
+.formsAnimalLine select {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+}
+
+
+.registreTable{
+    max-height: calc(8 * 60px); /*30px para cada linha da tabela serão no máximo 5 linhas. Depois haverá uma barra de rolagens*/
+    overflow-y: auto; /*Cria barra de rolagens na vertical*/
+    margin-right: 10px;
+    overflow-x:hidden;
+    margin-right: 10px;
+
+}
+
+.tableAnimal{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Para dispositivos médios (largura < 992px) */
+@media (max-width: 1435px) {
+    .formsAnimalLine {
+        flex-wrap: wrap; /* Permite quebra de linha */
+        gap: 1rem; /* Espaçamento uniforme entre linhas */
+    }
+    .cadastro {
+        height: 600px;
+    }
+}
+
+@media(max-width: 1270px){
+    .btnEdit, 
+    .btnRemove{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .btnEdit{
+        margin: 5px !important;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+}
+
+@media (max-width: 870px){
+
+    .formsAnimalLine {
+        display: block;
+        overflow-y: auto;
+    }
+
+    .cadastro{
+        overflow: auto;
+    }
+
+    .mg{
+        margin-bottom: 30px;
+    }
+
+    .registreTable {
+        overflow-x: auto; /* Permite rolagem horizontal */
+    }
+
+}
+
+@media(max-width: 700px){
+
+    .registreTable{
+        display: none;
+    }
+}

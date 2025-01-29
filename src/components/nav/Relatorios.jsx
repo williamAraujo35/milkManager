@@ -7,7 +7,7 @@ import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 
 
-const bdUrl = 'http://localhost:3005/animal';
+const bdUrl = 'https://backend-milkmanager.onrender.com/animal';
 
 export default class Relatorios extends Component {
 

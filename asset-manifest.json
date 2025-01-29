@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/milkManager/static/css/main.31ef7512.css",
+    "main.js": "/milkManager/static/js/main.13068164.js",
+    "static/js/239.8a8d3557.chunk.js": "/milkManager/static/js/239.8a8d3557.chunk.js",
+    "static/js/213.27feea56.chunk.js": "/milkManager/static/js/213.27feea56.chunk.js",
+    "static/js/732.bf10a030.chunk.js": "/milkManager/static/js/732.bf10a030.chunk.js",
+    "static/media/fa-solid-900.ttf": "/milkManager/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/fa-brands-400.ttf": "/milkManager/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/fa-solid-900.woff2": "/milkManager/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/fa-brands-400.woff2": "/milkManager/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/fa-regular-400.ttf": "/milkManager/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/JosefinSans-Light.ttf": "/milkManager/static/media/JosefinSans-Light.c61c964657466399c9d2.ttf",
+    "static/media/logo.jpg": "/milkManager/static/media/logo.99b920b62d35b1b96967.jpg",
+    "static/media/fa-regular-400.woff2": "/milkManager/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/fa-v4compatibility.ttf": "/milkManager/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/milkManager/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "index.html": "/milkManager/index.html",
+    "main.31ef7512.css.map": "/milkManager/static/css/main.31ef7512.css.map",
+    "main.13068164.js.map": "/milkManager/static/js/main.13068164.js.map",
+    "239.8a8d3557.chunk.js.map": "/milkManager/static/js/239.8a8d3557.chunk.js.map",
+    "213.27feea56.chunk.js.map": "/milkManager/static/js/213.27feea56.chunk.js.map",
+    "732.bf10a030.chunk.js.map": "/milkManager/static/js/732.bf10a030.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31ef7512.css",
+    "static/js/main.13068164.js"
+  ]
+}

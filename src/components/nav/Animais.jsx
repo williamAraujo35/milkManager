@@ -12,8 +12,8 @@ const initialState = {
 }
 
 //url para conexão com o banco de dados (db.json)
-//const bdUrl = 'http://localhost:3005/animal';
-const bdUrl = 'https://backend-milkmanager.onrender.com/animal';
+const bdUrl = 'http://localhost:3005/animal';
+//const bdUrl = 'https://backend-milkmanager.onrender.com/animal';
 
 export default class Animais extends Component {
 
@@ -106,6 +106,7 @@ export default class Animais extends Component {
         }
     }
 
+
     //função para criar tabela
     renderTable(){
         return(
@@ -140,11 +141,14 @@ export default class Animais extends Component {
 
         return this.state.list.map(animal => {
             //ajusta o formado da data de nascimento do animal
-            const dataNascimentoFormatada = new Date(animal.dataNascimento).toLocaleDateString('pt-BR', {
+            
+            /*const dataNascimentoFormatada = new Date(animal.dataNascimento).toLocaleDateString('pt-BR', {
                 day: '2-digit',
                 month: '2-digit',
                 year: 'numeric'
-            });
+            });*/
+            const dataNascimentoFormatada = new Date(animal.dataNascimento + "T00:00:00").toISOString().split("T")[0].split('-').reverse().join('/');
+
 
             return (
                 <tr className='text-center' key={animal.id}>

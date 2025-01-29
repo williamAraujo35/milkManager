@@ -7,8 +7,8 @@ import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 
 //url para conexão com o banco de dados (db.json)
-const bdUrl = 'http://localhost:3005/animal';
-//const bdUrl = 'https://backend-milkmanager.onrender.com/animal';
+//const bdUrl = 'http://localhost:3005/animal';
+const bdUrl = 'https://backend-milkmanager.onrender.com/animal';
 
 
 export default class Relatorios extends Component {
